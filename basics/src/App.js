@@ -1,7 +1,18 @@
+// import About from "./About";
+// import Contact from "./Contact";
+import Greeting from "./Greeting";
+// import Home from "./Home";
+
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <div>
+    <h1>Hello from React JS</h1>
+    <Greeting name ={'Isha'} />
+    <Greeting name ={'Akash'} />
+    <Greeting name ={'Shreya'} />
+
+    </div>
   );
 }
 
